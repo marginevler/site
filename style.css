@@ -1,3 +1,11 @@
+:root {
+  --light-beige: #F3ECD7;
+  --med-beige: #EAE2CA; /* rgba(234, 226, 202, 0.8) for diff opacity */
+  --darker-beige: #D6C8AB;
+  --dark-green: #595214;
+  --text-color: #2B2303;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -5,9 +13,25 @@ body {
     height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #F3ECD7;
-    color: #2B2303;
+    background-color: var(--light-beige);
+    color: var(--text-color);
     text-align: center;
+}
+
+.presave-button {
+  background-color: var(--med-beige);
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.presave-button:hover {
+  background-color: var(--darker-beige);
 }
 
 .bold-paragraph {
@@ -38,8 +62,24 @@ body {
     }
   }
 
+#mc_embed_signup {
+  background: var(--light-beige); 
+  font:14px Helvetica,Arial,sans-serif; 
+  width: 250px;
+}
+
+#mc_embed_signup input#mc-embedded-subscribe {
+    background-color: var(--text-color);
+    font-size: 14px;
+}
+
+#mc_embed_signup input#mc-embedded-subscribe:hover {
+    background-color: var(--dark-green);
+}
+
 footer {
-    background-color: rgba(234, 226, 202, 0.8);
+    background-color: var(--med-beige);
+    /* background-color: rgba(234, 226, 202, 0.8); same as above but with opacity */
     padding: 10px 0;
     position: fixed;
     bottom: 0;
