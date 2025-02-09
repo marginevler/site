@@ -16,7 +16,7 @@ body {
     background-color: var(--light-beige);
     color: var(--text-color);
     text-align: center;
-    padding-bottom: 90px;
+    padding-bottom: 160px;
 }
 
 .presave-button {
@@ -61,6 +61,9 @@ body {
   @media (min-width: 1200px) {
     .release-cover {
       max-width: 1200px;
+    }
+    body {
+      padding-bottom: 90px;
     }
   }
 
