@@ -57,8 +57,12 @@ body {
   background-color: rgba(200, 111, 88, 0.7);
 }
 
+.listen-youtube:hover {
+  background-color: rgba(172, 105, 78, 0.7);
+}
+
 .listen-tidal:hover {
-  background-color: rgba(166, 115, 62, 0.7);
+  background-color: rgba(77, 43, 19, 0.7);
 }
 
 .bold-paragraph {
