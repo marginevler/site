@@ -57,7 +57,7 @@ body {
   background-color: rgba(200, 111, 88, 0.7);
 }
 
-.listen-youtube:hover {
+.listen-youtubemusic:hover {
   background-color: rgba(172, 105, 78, 0.7);
 }
 
@@ -119,10 +119,11 @@ picture {
   gap: 22px;
   /* was 20 before */
   padding: 20px;
+  flex-wrap: wrap;
 }
 
 .social-icon {
-  width: 25px;
+  width: 24px;
   height: auto;
   transition: transform 0.3s ease;
 }
@@ -144,7 +145,7 @@ picture {
 }
 
 .footer-text {
-  padding: 10px 0 15px;
+  padding: 0 0 15px;
   margin-bottom: 30px;
   width: 100%;
   font-family: 'Times New Roman', Times, serif;
