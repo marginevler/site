@@ -131,6 +131,12 @@ picture {
   transform: scale(1.2);
 }
 
+/* .cover-separator {
+  width: 200px;
+  border-top: 1.5px solid var(--darker-beige);
+  margin: 0 0 20px;
+} */
+
 .short-line {
   width: 200px;
   border-top: 1.5px solid var(--darker-beige);
