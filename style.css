@@ -132,6 +132,28 @@ picture {
   transform: scale(1.2);
 }
 
+.follow-icon {
+  width: 25px;
+  height: auto;
+  display: flex;
+  flex: 1;
+  background-color: rgba(200, 111, 88, 0.25);
+  font-size: 16px;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.3s, box-shadow 0.3s;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.follow-icon:hover {
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+  transform: scale(1.05);
+}
+
 /* .cover-separator {
   width: 200px;
   border-top: 1.5px solid var(--darker-beige);
