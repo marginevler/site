@@ -137,6 +137,12 @@ picture {
   transform: scale(1.2);
 }
 
+.follow-container {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
 .follow-icon {
   width: 25px;
   height: auto;
@@ -162,7 +168,8 @@ picture {
 .short-line {
   width: 200px;
   border-top: 1.5px solid var(--darker-beige);
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 
 .footer-text {
