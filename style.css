@@ -10,14 +10,21 @@
 body {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   height: 100vh;
   margin: 0;
-  font-family: Arial, sans-serif;
+  font-family: Archivo, sans-serif;
   background-color: var(--light-beige);
   color: var(--text-color);
-  text-align: center;
+  text-align: left;
   padding-bottom: 240px;
+  padding: 0 40px;
+}
+
+
+
+.asuf {
+  font-family: 'Asuf', serif;
 }
 
 .listen-container {
