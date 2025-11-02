@@ -21,8 +21,6 @@ body {
   padding: 0 40px;
 }
 
-
-
 .asuf {
   font-family: 'Asuf', serif;
 }
@@ -177,6 +175,8 @@ picture {
   border-top: 1.5px solid var(--darker-beige);
   margin-top: 20px;
   margin-bottom: 40px;
+  margin-left: 0;
+  margin-right: auto;
 }
 
 .footer-text {
