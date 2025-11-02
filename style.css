@@ -180,3 +180,8 @@ picture {
   font-weight: bold;
   font-size: 0.9rem;
 }
+
+a:link,
+a:visited {
+  color: var(--dark-green) !important;
+}
