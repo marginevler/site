@@ -88,6 +88,16 @@ body {
   box-shadow: 4px 3px 15px rgba(0, 0, 0, 0.2);
 }
 
+.stm-pic {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 4px 3px 15px rgba(0, 0, 0, 0.6);
+  border-radius: 2%;
+}
+
 picture {
   display: flex;
 }
@@ -125,7 +135,7 @@ picture {
 
 .social-links {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   gap: 22px;
   /* was 20 before */
   padding: 20px;
@@ -186,4 +196,8 @@ picture {
   font-family: 'Times New Roman', Times, serif;
   font-weight: bold;
   font-size: 0.9rem;
+}
+
+a {
+  color: var(--dark-green);
 }
