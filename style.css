@@ -135,17 +135,20 @@ picture {
 
 .social-links {
   display: flex;
-  justify-content: left;
+  justify-content: center;
   gap: 22px;
   /* was 20 before */
   padding: 20px;
   flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .social-icon {
   width: 24px;
   height: auto;
   transition: transform 0.3s ease;
+  justify-content: center;
 }
 
 .social-icon:hover {
@@ -196,6 +199,8 @@ picture {
   font-family: 'Times New Roman', Times, serif;
   font-weight: bold;
   font-size: 0.9rem;
+  justify-content: center;
+  text-align: center;
 }
 
 a {
