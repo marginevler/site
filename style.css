@@ -199,6 +199,10 @@ picture {
   font-size: 0.9rem;
 }
 
+.heart-text {
+  font-family: Arial, sans-serif;
+}
+
 a:link,
 a:visited {
   color: var(--dark-green) !important;
