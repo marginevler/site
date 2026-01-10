@@ -1,10 +1,11 @@
 :root {
-  --light-beige: #FFF6E6;
-  --med-beige: #F2E5CF;
+  --light-beige: #0B0803;
+  --med-beige: #F6DCBA;
   /* rgba(234, 226, 202, 0.8) for diff opacity */
   --darker-beige: #D6C8AB;
   --dark-green: #595214;
-  --text-color: #2B2303;
+  --text-color: #F6DCBA;
+  --button-color: #AD8250;
 }
 
 body {
@@ -14,7 +15,7 @@ body {
   height: 100vh;
   margin: 0;
   font-family: Optima;
-  background-color: var(--light-beige);
+  background-color: #0B0803;
   color: var(--text-color);
   text-align: center;
   padding-bottom: 240px;
@@ -34,35 +35,19 @@ body {
 .listen-button {
   display: flex;
   flex: 1;
-  background-color: var(--med-beige);
+  background-color: var(--button-color);
   font-size: 16px;
   padding: 12px 16px;
   border: none;
   border-radius: 6px;
   cursor: pointer;
   font-weight: bold;
-  transition: background-color 0.3s, box-shadow 0.3s;
-  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 6px rgba(188, 39, 39, 0.733);
+  transition: transform 0.3s ease;
 }
 
 .listen-button:hover {
-  box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.3);
-}
-
-.listen-spotify:hover {
-  background-color: rgba(133, 138, 72, 0.7);
-}
-
-.listen-apple:hover {
-  background-color: rgba(246, 209, 57, 0.7);
-}
-
-.listen-youtubemusic:hover {
-  background-color: rgba(216, 56, 106, 0.7);
-}
-
-.listen-normalyoutube:hover {
-  background-color: rgba(142, 29, 48, 0.7);
+  transform: scale(1.05);
 }
 
 .bold-paragraph {
@@ -80,7 +65,7 @@ body {
 }
 
 .cover:hover {
-  box-shadow: 4px 3px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 4px 3px 15px rgba(188, 39, 39, 0.733);
 }
 
 .stm-pic {
@@ -89,7 +74,7 @@ body {
   height: auto;
   display: block;
   margin: 0 auto;
-  box-shadow: 4px 3px 15px rgba(0, 0, 0, 0.6);
+  box-shadow: 4px 3px 15px rgba(1, 1, 1, 0.6);
   border-radius: 2%;
 }
 
@@ -120,7 +105,7 @@ picture {
 }
 
 #mc_embed_signup input#mc-embedded-subscribe {
-  background-color: var(--text-color);
+  background-color: var(--button-color);
   font-size: 14px;
 }
 
@@ -158,7 +143,7 @@ picture {
   height: auto;
   display: flex;
   flex: 1;
-  background-color: var(--med-beige);
+  background-color: var(--button-color);
   font-size: 16px;
   padding: 12px 16px;
   border: none;
@@ -166,18 +151,17 @@ picture {
   cursor: pointer;
   font-weight: bold;
   transition: transform 0.3s, box-shadow 0.3s;
-  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 2px 6px rgba(188, 39, 39, 0.733);
   margin-bottom: 20px;
 }
 
 .follow-icon:hover {
-  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
   transform: scale(1.05);
 }
 
 .short-line {
   width: 200px;
-  border-top: 1.5px solid var(--darker-beige);
+  border-top: 1.5px solid #868634;
   margin-top: 20px;
   margin-bottom: 40px;
 }
@@ -201,5 +185,5 @@ picture {
 
 a:link,
 a:visited {
-  color: var(--dark-green) !important;
+  color: #868634 !important;
 }
