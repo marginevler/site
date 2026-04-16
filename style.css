@@ -199,6 +199,14 @@ body {
   transform: scale(1.2);
 }
 
+.quiz {
+  max-width: 300px;
+}
+
+.quizpill {
+  border-radius: 30px;
+}
+
 .follow-container {
   display: flex;
   gap: 25px;
