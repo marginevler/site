@@ -21,7 +21,7 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
-  font-family: 'Tahoma';
+  font-family: 'Verdana';
   background-color: var(--light-beige);
   color: var(--text-color);
   text-align: center;
@@ -89,7 +89,7 @@ body {
 #mc_embed_signup {
   background: var(--light-beige);
   font: 14px;
-  width: 200px;
+  width: 220px;
   text-align: center !important;
   margin: 0 auto;
 }
