@@ -128,7 +128,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  max-width: 250px;
+  max-width: 280px;
   margin: 0 auto;
   width: 100%;
 }
@@ -139,7 +139,7 @@ body {
   gap: 12px;
   padding: 12px 24px;
   border-radius: 999px;
-  background-color: transparent;
+  background-color: var(--light-beige);
   border: 1px solid #1a1a1a;
   color: #1a1a1a;
   text-decoration: none;
@@ -152,9 +152,7 @@ body {
 }
 
 .pill:hover {
-  background-color: #1a1a1a;
-  /* fills in on hover */
-  color: #ffffff;
+  background-color: var(--med-beige);
   cursor: pointer;
 }
 
@@ -175,6 +173,7 @@ body {
 .social-links {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 22px;
   /* was 20 before */
   padding: 20px;
@@ -224,6 +223,13 @@ body {
   border-top: 1.5px solid var(--darker-beige);
   margin-top: 20px;
   margin-bottom: 40px;
+}
+
+.short-line-symmetrical {
+  width: 200px;
+  border-top: 1.5px solid var(--darker-beige);
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .short-line-stm {
