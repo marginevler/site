@@ -66,6 +66,10 @@ body {
   transition: transform 0.3s, box-shadow 0.3s;
 }
 
+.description {
+  max-width: 500px;
+}
+
 .cover:hover {
   box-shadow: 4px 3px 15px rgba(0, 0, 0, 0.2);
 }
