@@ -72,6 +72,12 @@ body {
   padding-right: 22px;
 }
 
+.description-square {
+  max-width: 300px;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+
 .cover:hover {
   box-shadow: 4px 3px 15px rgba(0, 0, 0, 0.2);
 }
@@ -79,6 +85,16 @@ body {
 .stm-pic {
   width: 100%;
   max-width: 400px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  box-shadow: 4px 3px 15px rgba(0, 0, 0, 0.6);
+  border-radius: 2%;
+}
+
+.square-hna-pic {
+  width: 100%;
+  max-width: 300px;
   height: auto;
   display: block;
   margin: 0 auto;
