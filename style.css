@@ -15,6 +15,11 @@ h2 {
   font-size: 1.4rem;
 }
 
+h3 {
+  font-size: 1.1rem;
+  color: var(--dark-green);
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -55,6 +60,10 @@ body {
   font-weight: bold;
 }
 
+.dashes {
+  color: #D4C9AE;
+}
+
 .cover {
   width: 100%;
   max-width: 300px;
@@ -89,6 +98,11 @@ body {
   display: block;
   margin: 0 auto;
   box-shadow: 4px 3px 15px rgba(0, 0, 0, 0.6);
+  border-radius: 2%;
+}
+
+.plain-pic {
+  max-width: 400px;
   border-radius: 2%;
 }
 
